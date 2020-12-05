@@ -13,7 +13,7 @@ if (is_single()):
     if (have_posts()): 
         while(have_posts()): the_post();
 ?>
-    <div class="post-body text-left mx-10 lg:mx-40 2xl:mx-96 font-Merriweather">
+    <div class="post-body text-left leading-loose text-lg mx-10 lg:mx-40 2xl:mx-96 font-Roboto">
         <?php the_content(); ?>
     </div>
 
@@ -21,7 +21,7 @@ if (is_single()):
         endwhile;
     endif;
 ?>
-    <div class="text-left mx-10 lg:mx-40 2xl:mx-96 font-Merriweather">
+    <div class="text-left leading-loose mx-10 lg:mx-40 2xl:mx-96 font-Roboto">
         <?php
             // If comments are open or we have at least one comment, load up the comment template.
             if ( comments_open() || get_comments_number() ) :

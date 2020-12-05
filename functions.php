@@ -30,7 +30,7 @@ function load_stylesheets() {
 }
 
 function load_fonts() {
-    wp_enqueue_style('wp-google-fonts', 'https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap');
+    wp_enqueue_style('wp-google-fonts', 'https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
 }
 
 function load_js() {
