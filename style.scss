@@ -1,0 +1,44 @@
+/*
+Theme Name: Jiroscopes Blog Theme
+Theme URI: 
+Author: Steven Popick
+Author URI: https://midtwenty.com
+Description: A custom blog theme made for Jiroscopes.com
+Version: 1.0
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: twentythirteen
+*/
+
+// @import url('node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.post-body {
+    p {
+        margin: 1.25rem 0;
+    }
+    figure {
+        img {
+            margin: 0 auto;
+        }
+    }
+}
+
+.comment {
+    .children {
+        padding-left: 30px;
+        background: rgba(226, 226, 226, 0.6);
+    }
+
+    .comment-reply-link {
+        display: block;
+        margin-bottom: 10px;
+        color: #979797;
+    }
+}
+
+// .sidebar-closed {
+//     right: -100px;
+//     background: transparent;
+// }
