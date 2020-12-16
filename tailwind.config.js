@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     fontFamily: {
       'Lora': ['Lora', 'sans-serif'],
-      'Merriweather': ['Merriweather', 'sans-serif']
+      'Roboto': ['Roboto', 'sans-serif']
     },
     extend: {
       colors: {
