@@ -31883,6 +31883,10 @@ video {
   margin: 1.25rem 0;
 }
 
+.post-body a {
+  text-decoration: underline;
+}
+
 .post-body figure img {
   margin: 0 auto;
 }
@@ -31896,6 +31900,10 @@ video {
   display: block;
   margin-bottom: 10px;
   color: #979797;
+}
+
+code {
+  background: #e6e6e6;
 }
 
 @media (min-width: 640px) {

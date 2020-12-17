@@ -18,6 +18,9 @@ Text Domain: twentythirteen
     p {
         margin: 1.25rem 0;
     }
+    a {
+        text-decoration: underline;
+    }
     figure {
         img {
             margin: 0 auto;
@@ -36,6 +39,11 @@ Text Domain: twentythirteen
         margin-bottom: 10px;
         color: #979797;
     }
+}
+
+code {
+    background: #e6e6e6;
+    // color: red;
 }
 
 // .sidebar-closed {
